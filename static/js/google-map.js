@@ -1,4 +1,4 @@
-var steps = [];
+var i = 0;
 
 function initMap() {
 	// Create a map object and specify the DOM element for display.
@@ -12,14 +12,18 @@ function initMap() {
 	parser.parse('library/navigate.kml');
 
 	function createM(placemark) {
-		//console.log(placemark);
-		var tmp = {};
-		
-		tmp.name = placemark.name;
-		tmp.lat = placemark.latlng.lat();
-		tmp.long = placemark.latlng.lng();
-		
-		steps.push(tmp);
+		if (!loadFromCache) {
+			var tmp = {};
+			
+			tmp.id = i;
+			tmp.name = placemark.name;
+			tmp.lat = placemark.latlng.lat();
+			tmp.long = placemark.latlng.lng();
+			
+			steps.push(tmp);
+		}
+
+		i++;
 
 		var markerOptions = {
 			optimized: false,

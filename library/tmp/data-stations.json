@@ -1,12 +1,412 @@
 {
   "stats": {
     "timeMin": "2014-02-04T16:00:00",
-    "count": 240,
+    "count": 159,
     "offset": 0,
-    "nextOffset": 240,
-    "timeMax": "2016-11-02T15:00:00"
+    "nextOffset": 159,
+    "timeMax": "2016-11-03T16:00:00"
   },
   "entries": [{
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-03T16:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.0,
+      "air_temperature": 8.800000190734863,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-03T15:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.0,
+      "air_temperature": 7.5,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-03T14:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.0,
+      "air_temperature": 6.599999904632568,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-03T13:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 0.8999999761581421,
+      "air_temperature": 8.199999809265137,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-03T12:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.0,
+      "air_temperature": 8.0,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-03T11:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.0,
+      "air_temperature": 7.699999809265137,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-03T10:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.100000023841858,
+      "air_temperature": 7.900000095367432,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-03T09:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.2000000476837158,
+      "air_temperature": 8.199999809265137,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-03T08:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.2000000476837158,
+      "air_temperature": 8.800000190734863,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-03T07:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.2000000476837158,
+      "air_temperature": 8.699999809265137,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-03T06:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.2999999523162842,
+      "air_temperature": 8.600000381469727,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-03T05:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.2000000476837158,
+      "air_temperature": 8.399999618530273,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-03T04:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.2999999523162842,
+      "air_temperature": 8.399999618530273,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-03T03:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.2000000476837158,
+      "air_temperature": 7.900000095367432,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-03T02:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.399999976158142,
+      "air_temperature": 8.300000190734863,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-03T01:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.399999976158142,
+      "air_temperature": 8.5,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-03T00:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.5,
+      "air_temperature": 8.300000190734863,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-02T23:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.5,
+      "air_temperature": 9.800000190734863,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-02T22:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.600000023841858,
+      "air_temperature": 9.5,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-02T21:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.7000000476837158,
+      "air_temperature": 9.899999618530273,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-02T20:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.7000000476837158,
+      "air_temperature": 10.0,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-02T19:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.899999976158142,
+      "air_temperature": 9.899999618530273,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-02T18:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 1.7999999523162842,
+      "air_temperature": 10.0,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-02T17:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 2.0999999046325684,
+      "air_temperature": 10.0,
+      "sea_surface_temperature": null
+    }
+  }, {
+    "context": "time_latitude_longitude",
+    "classifiers": {
+      "station": "62130"
+    },
+    "axes": {
+      "time": "2016-11-02T16:00:00",
+      "latitude": 53.0,
+      "longitude": 1.7000000476837158
+    },
+    "data": {
+      "wind_spd": null,
+      "wave_height": 2.200000047683716,
+      "air_temperature": 9.800000190734863,
+      "sea_surface_temperature": null
+    }
+  }, {
     "context": "time_latitude_longitude",
     "classifiers": {
       "station": "62130"
@@ -17,8 +417,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.0999999046325684,
-      "air_temperature": 10.5
+      "air_temperature": 10.5,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -31,8 +433,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.200000047683716,
-      "air_temperature": 10.300000190734863
+      "air_temperature": 10.300000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -45,8 +449,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.299999952316284,
-      "air_temperature": 10.699999809265137
+      "air_temperature": 10.699999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -59,8 +465,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.299999952316284,
-      "air_temperature": 11.800000190734863
+      "air_temperature": 11.800000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -73,8 +481,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.299999952316284,
-      "air_temperature": 11.399999618530273
+      "air_temperature": 11.399999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -87,8 +497,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.299999952316284,
-      "air_temperature": 9.300000190734863
+      "air_temperature": 9.300000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -101,8 +513,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.700000047683716,
-      "air_temperature": 9.600000381469727
+      "air_temperature": 9.600000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -115,8 +529,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.700000047683716,
-      "air_temperature": 8.899999618530273
+      "air_temperature": 8.899999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -129,8 +545,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.799999952316284,
-      "air_temperature": 8.899999618530273
+      "air_temperature": 8.899999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -143,8 +561,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.5999999046325684,
-      "air_temperature": 8.800000190734863
+      "air_temperature": 8.800000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -157,8 +577,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.799999952316284,
-      "air_temperature": 8.5
+      "air_temperature": 8.5,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -171,8 +593,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.9000000953674316,
-      "air_temperature": 8.399999618530273
+      "air_temperature": 8.399999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -185,8 +609,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.0,
-      "air_temperature": 8.5
+      "air_temperature": 8.5,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -199,8 +625,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.799999952316284,
-      "air_temperature": 9.100000381469727
+      "air_temperature": 9.100000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -213,8 +641,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.0,
-      "air_temperature": 9.300000190734863
+      "air_temperature": 9.300000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -227,8 +657,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.299999952316284,
-      "air_temperature": 9.0
+      "air_temperature": 9.0,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -241,8 +673,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.5999999046325684,
-      "air_temperature": 8.899999618530273
+      "air_temperature": 8.899999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -255,8 +689,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.4000000953674316,
-      "air_temperature": 8.100000381469727
+      "air_temperature": 8.100000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -269,8 +705,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.5,
-      "air_temperature": 7.199999809265137
+      "air_temperature": 7.199999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -283,8 +721,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.4000000953674316,
-      "air_temperature": 8.100000381469727
+      "air_temperature": 8.100000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -297,8 +737,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.4000000953674316,
-      "air_temperature": 8.0
+      "air_temperature": 8.0,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -311,8 +753,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.5999999046325684,
-      "air_temperature": 8.600000381469727
+      "air_temperature": 8.600000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -325,8 +769,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.700000047683716,
-      "air_temperature": 8.100000381469727
+      "air_temperature": 8.100000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -339,8 +785,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.5999999046325684,
-      "air_temperature": 8.699999809265137
+      "air_temperature": 8.699999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -353,8 +801,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.5,
-      "air_temperature": 9.399999618530273
+      "air_temperature": 9.399999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -367,8 +817,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.299999952316284,
-      "air_temperature": 9.800000190734863
+      "air_temperature": 9.800000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -381,8 +833,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.299999952316284,
-      "air_temperature": 10.199999809265137
+      "air_temperature": 10.199999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -395,8 +849,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.799999952316284,
-      "air_temperature": 9.800000190734863
+      "air_temperature": 9.800000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -409,8 +865,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.4000000953674316,
-      "air_temperature": 9.199999809265137
+      "air_temperature": 9.199999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -423,8 +881,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.299999952316284,
-      "air_temperature": 10.0
+      "air_temperature": 10.0,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -437,8 +897,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.200000047683716,
-      "air_temperature": 9.899999618530273
+      "air_temperature": 9.899999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -451,8 +913,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.0999999046325684,
-      "air_temperature": 9.800000190734863
+      "air_temperature": 9.800000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -465,8 +929,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.0,
-      "air_temperature": 9.699999809265137
+      "air_temperature": 9.699999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -479,8 +945,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.899999976158142,
-      "air_temperature": 9.899999618530273
+      "air_temperature": 9.899999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -493,8 +961,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.0,
-      "air_temperature": 9.300000190734863
+      "air_temperature": 9.300000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -507,8 +977,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.7999999523162842,
-      "air_temperature": 9.100000381469727
+      "air_temperature": 9.100000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -521,8 +993,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.7999999523162842,
-      "air_temperature": 8.699999809265137
+      "air_temperature": 8.699999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -535,8 +1009,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.600000023841858,
-      "air_temperature": 8.800000190734863
+      "air_temperature": 8.800000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -549,8 +1025,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.5,
-      "air_temperature": 8.800000190734863
+      "air_temperature": 8.800000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -563,8 +1041,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.2999999523162842,
-      "air_temperature": 9.0
+      "air_temperature": 9.0,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -577,8 +1057,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.0,
-      "air_temperature": 10.199999809265137
+      "air_temperature": 10.199999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -591,8 +1073,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.0,
-      "air_temperature": 10.5
+      "air_temperature": 10.5,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -605,8 +1089,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.0,
-      "air_temperature": 10.899999618530273
+      "air_temperature": 10.899999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -619,8 +1105,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.0,
-      "air_temperature": 10.600000381469727
+      "air_temperature": 10.600000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -633,8 +1121,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.0,
-      "air_temperature": 10.199999809265137
+      "air_temperature": 10.199999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -647,8 +1137,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.0,
-      "air_temperature": 10.399999618530273
+      "air_temperature": 10.399999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -661,8 +1153,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.800000011920929,
-      "air_temperature": 10.699999809265137
+      "air_temperature": 10.699999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -675,8 +1169,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.800000011920929,
-      "air_temperature": 10.899999618530273
+      "air_temperature": 10.899999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -689,8 +1185,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.800000011920929,
-      "air_temperature": 11.600000381469727
+      "air_temperature": 11.600000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -703,8 +1201,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.8999999761581421,
-      "air_temperature": 11.399999618530273
+      "air_temperature": 11.399999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -717,8 +1217,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.8999999761581421,
-      "air_temperature": 11.5
+      "air_temperature": 11.5,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -731,8 +1233,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.8999999761581421,
-      "air_temperature": 11.100000381469727
+      "air_temperature": 11.100000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -745,8 +1249,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.8999999761581421,
-      "air_temperature": 11.800000190734863
+      "air_temperature": 11.800000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -759,8 +1265,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.800000011920929,
-      "air_temperature": 10.800000190734863
+      "air_temperature": 10.800000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -773,8 +1281,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.800000011920929,
-      "air_temperature": 11.100000381469727
+      "air_temperature": 11.100000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -787,8 +1297,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.8999999761581421,
-      "air_temperature": 11.600000381469727
+      "air_temperature": 11.600000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -801,8 +1313,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.8999999761581421,
-      "air_temperature": 11.0
+      "air_temperature": 11.0,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -815,8 +1329,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.8999999761581421,
-      "air_temperature": 10.600000381469727
+      "air_temperature": 10.600000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -829,8 +1345,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.0,
-      "air_temperature": 10.600000381469727
+      "air_temperature": 10.600000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -843,8 +1361,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.8999999761581421,
-      "air_temperature": 10.600000381469727
+      "air_temperature": 10.600000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -857,8 +1377,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.8999999761581421,
-      "air_temperature": 10.600000381469727
+      "air_temperature": 10.600000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -871,8 +1393,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.800000011920929,
-      "air_temperature": 10.600000381469727
+      "air_temperature": 10.600000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -885,8 +1409,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.800000011920929,
-      "air_temperature": 11.100000381469727
+      "air_temperature": 11.100000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -899,8 +1425,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.8999999761581421,
-      "air_temperature": 11.100000381469727
+      "air_temperature": 11.100000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -913,8 +1441,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.8999999761581421,
-      "air_temperature": 11.199999809265137
+      "air_temperature": 11.199999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -927,8 +1457,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.0,
-      "air_temperature": 11.300000190734863
+      "air_temperature": 11.300000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -941,8 +1473,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 0.8999999761581421,
-      "air_temperature": 11.399999618530273
+      "air_temperature": 11.399999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -955,8 +1489,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.0,
-      "air_temperature": 11.100000381469727
+      "air_temperature": 11.100000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -969,8 +1505,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.0,
-      "air_temperature": 10.699999809265137
+      "air_temperature": 10.699999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -983,8 +1521,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.0,
-      "air_temperature": 10.699999809265137
+      "air_temperature": 10.699999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -997,8 +1537,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.100000023841858,
-      "air_temperature": 10.800000190734863
+      "air_temperature": 10.800000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1011,8 +1553,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.100000023841858,
-      "air_temperature": 10.800000190734863
+      "air_temperature": 10.800000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1025,8 +1569,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.100000023841858,
-      "air_temperature": 10.800000190734863
+      "air_temperature": 10.800000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1039,8 +1585,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.2999999523162842,
-      "air_temperature": 11.0
+      "air_temperature": 11.0,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1053,8 +1601,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.2999999523162842,
-      "air_temperature": 10.899999618530273
+      "air_temperature": 10.899999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1067,8 +1617,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.399999976158142,
-      "air_temperature": 10.899999618530273
+      "air_temperature": 10.899999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1081,8 +1633,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.399999976158142,
-      "air_temperature": 10.899999618530273
+      "air_temperature": 10.899999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1095,8 +1649,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.399999976158142,
-      "air_temperature": 11.0
+      "air_temperature": 11.0,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1109,8 +1665,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.399999976158142,
-      "air_temperature": 10.899999618530273
+      "air_temperature": 10.899999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1123,8 +1681,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.5,
-      "air_temperature": 10.800000190734863
+      "air_temperature": 10.800000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1137,8 +1697,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.600000023841858,
-      "air_temperature": 10.699999809265137
+      "air_temperature": 10.699999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1151,8 +1713,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.600000023841858,
-      "air_temperature": 10.600000381469727
+      "air_temperature": 10.600000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1165,8 +1729,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.7999999523162842,
-      "air_temperature": 11.300000190734863
+      "air_temperature": 11.300000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1179,8 +1745,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.7999999523162842,
-      "air_temperature": 10.5
+      "air_temperature": 10.5,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1193,8 +1761,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.899999976158142,
-      "air_temperature": 10.300000190734863
+      "air_temperature": 10.300000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1207,8 +1777,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.0,
-      "air_temperature": 10.199999809265137
+      "air_temperature": 10.199999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1221,8 +1793,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.7999999523162842,
-      "air_temperature": 10.300000190734863
+      "air_temperature": 10.300000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1235,8 +1809,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.0,
-      "air_temperature": 10.5
+      "air_temperature": 10.5,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1249,8 +1825,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.0999999046325684,
-      "air_temperature": 10.399999618530273
+      "air_temperature": 10.399999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1263,8 +1841,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.200000047683716,
-      "air_temperature": 10.399999618530273
+      "air_temperature": 10.399999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1277,8 +1857,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.0,
-      "air_temperature": 10.300000190734863
+      "air_temperature": 10.300000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1291,8 +1873,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.0999999046325684,
-      "air_temperature": 10.300000190734863
+      "air_temperature": 10.300000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1305,8 +1889,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 1.899999976158142,
-      "air_temperature": 10.399999618530273
+      "air_temperature": 10.399999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1319,8 +1905,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.0,
-      "air_temperature": 10.399999618530273
+      "air_temperature": 10.399999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1333,8 +1921,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.0999999046325684,
-      "air_temperature": 10.800000190734863
+      "air_temperature": 10.800000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1347,8 +1937,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.200000047683716,
-      "air_temperature": 11.5
+      "air_temperature": 11.5,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1361,8 +1953,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.299999952316284,
-      "air_temperature": 11.300000190734863
+      "air_temperature": 11.300000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1375,8 +1969,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.5,
-      "air_temperature": 11.199999809265137
+      "air_temperature": 11.199999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1389,8 +1985,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.799999952316284,
-      "air_temperature": 11.899999618530273
+      "air_temperature": 11.899999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1403,8 +2001,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.799999952316284,
-      "air_temperature": 11.399999618530273
+      "air_temperature": 11.399999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1417,8 +2017,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.4000000953674316,
-      "air_temperature": 11.300000190734863
+      "air_temperature": 11.300000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1431,8 +2033,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.5999999046325684,
-      "air_temperature": 11.0
+      "air_temperature": 11.0,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1445,8 +2049,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.5,
-      "air_temperature": 10.399999618530273
+      "air_temperature": 10.399999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1459,8 +2065,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.700000047683716,
-      "air_temperature": 10.699999809265137
+      "air_temperature": 10.699999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1473,8 +2081,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.5999999046325684,
-      "air_temperature": 10.600000381469727
+      "air_temperature": 10.600000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1487,8 +2097,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.5999999046325684,
-      "air_temperature": 11.100000381469727
+      "air_temperature": 11.100000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1501,8 +2113,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.9000000953674316,
-      "air_temperature": 10.399999618530273
+      "air_temperature": 10.399999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1515,8 +2129,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.200000047683716,
-      "air_temperature": 10.199999809265137
+      "air_temperature": 10.199999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1529,8 +2145,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.200000047683716,
-      "air_temperature": 9.800000190734863
+      "air_temperature": 9.800000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1543,8 +2161,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.4000000953674316,
-      "air_temperature": 9.600000381469727
+      "air_temperature": 9.600000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1557,8 +2177,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.4000000953674316,
-      "air_temperature": 10.199999809265137
+      "air_temperature": 10.199999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1571,8 +2193,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.5999999046325684,
-      "air_temperature": 9.899999618530273
+      "air_temperature": 9.899999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1585,8 +2209,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.5999999046325684,
-      "air_temperature": 9.600000381469727
+      "air_temperature": 9.600000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1599,8 +2225,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.799999952316284,
-      "air_temperature": 10.0
+      "air_temperature": 10.0,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1613,8 +2241,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.5999999046325684,
-      "air_temperature": 9.699999809265137
+      "air_temperature": 9.699999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1627,8 +2257,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.799999952316284,
-      "air_temperature": 10.0
+      "air_temperature": 10.0,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1641,8 +2273,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.700000047683716,
-      "air_temperature": 9.0
+      "air_temperature": 9.0,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1655,8 +2289,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.5999999046325684,
-      "air_temperature": 9.899999618530273
+      "air_temperature": 9.899999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1669,8 +2305,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.700000047683716,
-      "air_temperature": 9.899999618530273
+      "air_temperature": 9.899999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1683,8 +2321,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.9000000953674316,
-      "air_temperature": 10.0
+      "air_temperature": 10.0,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1697,8 +2337,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 4.0,
-      "air_temperature": 9.600000381469727
+      "air_temperature": 9.600000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1711,8 +2353,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 4.099999904632568,
-      "air_temperature": 8.800000190734863
+      "air_temperature": 8.800000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1725,8 +2369,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 4.099999904632568,
-      "air_temperature": 9.600000381469727
+      "air_temperature": 9.600000381469727,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1739,8 +2385,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 4.099999904632568,
-      "air_temperature": 10.0
+      "air_temperature": 10.0,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1753,8 +2401,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.9000000953674316,
-      "air_temperature": 9.899999618530273
+      "air_temperature": 9.899999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1767,8 +2417,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.5,
-      "air_temperature": 10.199999809265137
+      "air_temperature": 10.199999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1781,8 +2433,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.5,
-      "air_temperature": 9.199999809265137
+      "air_temperature": 9.199999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1795,8 +2449,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.5999999046325684,
-      "air_temperature": 9.699999809265137
+      "air_temperature": 9.699999809265137,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1809,8 +2465,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.0999999046325684,
-      "air_temperature": 9.300000190734863
+      "air_temperature": 9.300000190734863,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1823,8 +2481,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.200000047683716,
-      "air_temperature": 9.899999618530273
+      "air_temperature": 9.899999618530273,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1837,8 +2497,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.0,
-      "air_temperature": 10.0
+      "air_temperature": 10.0,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1851,8 +2513,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 3.0,
-      "air_temperature": 10.0
+      "air_temperature": 10.0,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1865,8 +2529,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.9000000953674316,
-      "air_temperature": 10.0
+      "air_temperature": 10.0,
+      "sea_surface_temperature": null
     }
   }, {
     "context": "time_latitude_longitude",
@@ -1879,1492 +2545,10 @@
       "longitude": 1.7000000476837158
     },
     "data": {
+      "wind_spd": null,
       "wave_height": 2.5999999046325684,
-      "air_temperature": 10.199999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T23:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.5999999046325684,
-      "air_temperature": 10.300000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T22:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.5,
-      "air_temperature": 10.699999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T21:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.799999952316284,
-      "air_temperature": 10.399999618530273
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T20:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.5,
-      "air_temperature": 11.199999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T19:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.299999952316284,
-      "air_temperature": 12.399999618530273
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T18:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.299999952316284,
-      "air_temperature": 12.199999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T17:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.5,
-      "air_temperature": 12.0
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T16:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.799999952316284,
-      "air_temperature": 11.800000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T15:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.5999999046325684,
-      "air_temperature": 11.300000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T14:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.799999952316284,
-      "air_temperature": 11.399999618530273
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T13:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.9000000953674316,
-      "air_temperature": 11.100000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T12:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.799999952316284,
-      "air_temperature": 11.399999618530273
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T11:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.4000000953674316,
-      "air_temperature": 11.899999618530273
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T10:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.5,
-      "air_temperature": 11.600000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T09:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.299999952316284,
-      "air_temperature": 12.0
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T08:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.0999999046325684,
-      "air_temperature": 11.100000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T07:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.0,
-      "air_temperature": 11.100000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T06:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.200000047683716,
-      "air_temperature": 10.800000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T05:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.200000047683716,
-      "air_temperature": 10.899999618530273
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T04:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.0999999046325684,
-      "air_temperature": 11.199999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T03:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.5,
-      "air_temperature": 11.0
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T02:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.4000000953674316,
-      "air_temperature": 10.899999618530273
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T01:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.4000000953674316,
-      "air_temperature": 11.0
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-27T00:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.299999952316284,
-      "air_temperature": 11.600000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T23:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.0999999046325684,
-      "air_temperature": 11.5
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T22:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.0,
-      "air_temperature": 11.399999618530273
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T21:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.0,
-      "air_temperature": 11.399999618530273
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T20:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.899999976158142,
-      "air_temperature": 11.399999618530273
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T19:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.200000047683716,
-      "air_temperature": 10.899999618530273
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T18:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.200000047683716,
-      "air_temperature": 11.300000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T17:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.4000000953674316,
-      "air_temperature": 11.100000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T16:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.0999999046325684,
-      "air_temperature": 11.0
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T15:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.200000047683716,
-      "air_temperature": 11.600000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T14:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.0,
-      "air_temperature": 11.899999618530273
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T13:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.0999999046325684,
-      "air_temperature": 11.600000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T12:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.200000047683716,
-      "air_temperature": 11.300000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T11:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.899999976158142,
-      "air_temperature": 11.300000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T10:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.0999999046325684,
-      "air_temperature": 11.100000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T09:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.0999999046325684,
-      "air_temperature": 11.100000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T08:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.0,
-      "air_temperature": 11.0
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T07:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.0999999046325684,
-      "air_temperature": 10.800000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T06:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.0,
-      "air_temperature": 10.800000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T05:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.200000047683716,
-      "air_temperature": 10.800000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T04:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.0,
-      "air_temperature": 10.800000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T03:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.200000047683716,
-      "air_temperature": 10.800000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T02:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.0999999046325684,
-      "air_temperature": 10.699999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T01:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.899999976158142,
-      "air_temperature": 10.699999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-26T00:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.0,
-      "air_temperature": 10.699999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T23:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 2.0999999046325684,
-      "air_temperature": 10.600000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T22:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.7999999523162842,
-      "air_temperature": 10.300000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T21:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.600000023841858,
-      "air_temperature": 10.0
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T20:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.5,
-      "air_temperature": 10.199999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T19:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.399999976158142,
-      "air_temperature": 10.100000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T18:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.2999999523162842,
-      "air_temperature": 10.100000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T17:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.2000000476837158,
-      "air_temperature": 10.0
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T16:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.100000023841858,
-      "air_temperature": 10.0
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T15:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.100000023841858,
-      "air_temperature": 10.0
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T14:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.2000000476837158,
-      "air_temperature": 10.199999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T13:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.100000023841858,
-      "air_temperature": 10.199999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T12:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.2000000476837158,
-      "air_temperature": 8.899999618530273
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T11:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.100000023841858,
-      "air_temperature": 9.800000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T10:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.2000000476837158,
-      "air_temperature": 9.600000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T09:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.0,
-      "air_temperature": 9.699999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T08:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.2000000476837158,
-      "air_temperature": 9.5
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T07:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.100000023841858,
-      "air_temperature": 9.300000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T06:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.2999999523162842,
-      "air_temperature": 9.199999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T05:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.2000000476837158,
-      "air_temperature": 9.199999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T04:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.2000000476837158,
-      "air_temperature": 9.300000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T03:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.5,
-      "air_temperature": 9.300000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T02:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.399999976158142,
-      "air_temperature": 9.899999618530273
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T01:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.5,
-      "air_temperature": 9.5
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-25T00:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.5,
-      "air_temperature": 10.0
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T23:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.600000023841858,
-      "air_temperature": 10.100000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T22:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.600000023841858,
-      "air_temperature": 10.100000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T21:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.5,
-      "air_temperature": 10.199999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T20:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.5,
-      "air_temperature": 10.199999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T19:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.600000023841858,
-      "air_temperature": 10.399999618530273
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T18:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.600000023841858,
-      "air_temperature": 10.199999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T17:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.600000023841858,
-      "air_temperature": 10.199999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T16:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.600000023841858,
-      "air_temperature": 10.5
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T15:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.7999999523162842,
-      "air_temperature": 10.800000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T14:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.5,
-      "air_temperature": 10.399999618530273
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T13:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.5,
-      "air_temperature": 9.800000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T12:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.399999976158142,
-      "air_temperature": 10.699999809265137
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T11:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.399999976158142,
-      "air_temperature": 11.0
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T10:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": null,
-      "air_temperature": null
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T09:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.399999976158142,
-      "air_temperature": 10.399999618530273
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T08:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.399999976158142,
-      "air_temperature": 9.800000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T07:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.5,
-      "air_temperature": 9.600000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T06:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.399999976158142,
-      "air_temperature": 9.600000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T05:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.399999976158142,
-      "air_temperature": 9.800000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T04:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.399999976158142,
-      "air_temperature": 9.800000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T03:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.2999999523162842,
-      "air_temperature": 10.0
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T02:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.2999999523162842,
-      "air_temperature": 9.800000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T01:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.399999976158142,
-      "air_temperature": 9.5
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-24T00:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.399999976158142,
-      "air_temperature": 9.300000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-23T23:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.399999976158142,
-      "air_temperature": 9.100000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-23T22:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.399999976158142,
-      "air_temperature": 8.899999618530273
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-23T21:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.2000000476837158,
-      "air_temperature": 9.0
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-23T20:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.399999976158142,
-      "air_temperature": 9.100000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-23T19:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.2999999523162842,
-      "air_temperature": 9.100000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-23T18:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.5,
-      "air_temperature": 8.600000381469727
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-23T17:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.5,
-      "air_temperature": 8.800000190734863
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-23T16:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.399999976158142,
-      "air_temperature": 9.0
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-23T15:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.399999976158142,
-      "air_temperature": 9.0
-    }
-  }, {
-    "context": "time_latitude_longitude",
-    "classifiers": {
-      "station": "62130"
-    },
-    "axes": {
-      "time": "2016-10-23T14:00:00",
-      "latitude": 53.0,
-      "longitude": 1.7000000476837158
-    },
-    "data": {
-      "wave_height": 1.5,
-      "air_temperature": 8.800000190734863
+      "air_temperature": 10.199999809265137,
+      "sea_surface_temperature": null
     }
   }]
 }
