@@ -12,7 +12,7 @@ function initMap() {
 	parser.parse('library/navigate.kml');
 
 	function createM(placemark) {
-		//console.log(placemark);	
+		//console.log(placemark);
 		var tmp = {};
 		
 		tmp.name = placemark.name;
@@ -32,7 +32,7 @@ function initMap() {
 
 		google.maps.event.addListener(marker, 'click', function()
 		{
-			alert(placemark.name);
+
 		});
 	}
 }
