@@ -12,13 +12,13 @@ function initMap() {
 	parser.parse('library/navigate.kml');
 
 	function createM(placemark) {
-		//console.log(placemark);	
+		//console.log(placemark);
 		var tmp = {};
-		
+
 		tmp['name'] = placemark.name;
 		tmp['lat'] = placemark.latlng.lat();
 		tmp['long'] = placemark.latlng.lng();
-		
+
 		stepCoordonates.push(tmp);
 
 		var markerOptions = {
