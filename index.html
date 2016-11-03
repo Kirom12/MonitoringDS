@@ -40,6 +40,8 @@
         <ul class="planet">
             
         </ul>
+
+        <div id="chart" style="width:100%; height:400px;"></div>
     </div><!-- /.container -->
 
     <script src="static/js/jquery-3.1.1.min.js"></script>
@@ -47,5 +49,33 @@
     <script src="static/js/geoxml3.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9ucL7MALxq1FnHjp6sR6o8WBq_T2Ja8w&callback=initMap"></script>
     <script src="static/js/google-map.js"></script>
+    <script src="static/js/highcharts.js"></script>
+    <script type="text/javascript">
+        $(function () { 
+            var myChart = Highcharts.chart('chart', {
+                chart: {
+                    type: 'bar'
+                },
+                title: {
+                    text: 'Fruit Consumption'
+                },
+                xAxis: {
+                    categories: ['Apples', 'Bananas', 'Oranges']
+                },
+                yAxis: {
+                    title: {
+                        text: 'Fruit eaten'
+                    }
+                },
+                series: [{
+                    name: 'Jane',
+                    data: [1, 0, 4]
+                }, {
+                    name: 'John',
+                    data: [5, 7, 3]
+                }]
+            });
+        });
+    </script>
 </body>
 </html>
