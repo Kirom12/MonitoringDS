@@ -1,4 +1,4 @@
-var stepCoordonates = [];
+var steps = [];
 
 function initMap() {
 	// Create a map object and specify the DOM element for display.
@@ -15,11 +15,11 @@ function initMap() {
 		//console.log(placemark);	
 		var tmp = {};
 		
-		tmp['name'] = placemark.name;
-		tmp['lat'] = placemark.latlng.lat();
-		tmp['long'] = placemark.latlng.lng();
+		tmp.name = placemark.name;
+		tmp.lat = placemark.latlng.lat();
+		tmp.long = placemark.latlng.lng();
 		
-		stepCoordonates.push(tmp);
+		steps.push(tmp);
 
 		var markerOptions = {
 			optimized: false,

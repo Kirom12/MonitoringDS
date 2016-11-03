@@ -1,0 +1,87 @@
+{
+  "stats": {
+    "timeMin": "2016-09-28T00:00:00",
+    "count": 7,
+    "offset": 0,
+    "nextOffset": 7,
+    "timeMax": "2016-11-02T00:00:00"
+  },
+  "entries": [{
+    "context": "time_lat_lon",
+    "axes": {
+      "time": "2016-09-28T00:00:00",
+      "latitude": 51.689998626708984,
+      "longitude": 2.490000009536743
+    },
+    "data": {
+      "sea_surface_temperature": null,
+      "wind_speed": null
+    }
+  }, {
+    "context": "time_lat_lon",
+    "axes": {
+      "time": "2016-10-03T00:00:00",
+      "latitude": 51.689998626708984,
+      "longitude": 2.490000009536743
+    },
+    "data": {
+      "sea_surface_temperature": 290.9700012207031,
+      "wind_speed": null
+    }
+  }, {
+    "context": "time_lat_lon",
+    "axes": {
+      "time": "2016-10-04T00:00:00",
+      "latitude": 51.689998626708984,
+      "longitude": 2.490000009536743
+    },
+    "data": {
+      "sea_surface_temperature": 291.1600036621094,
+      "wind_speed": null
+    }
+  }, {
+    "context": "time_lat_lon",
+    "axes": {
+      "time": "2016-10-05T00:00:00",
+      "latitude": 51.689998626708984,
+      "longitude": 2.490000009536743
+    },
+    "data": {
+      "sea_surface_temperature": 291.3500061035156,
+      "wind_speed": 11.0
+    }
+  }, {
+    "context": "time_lat_lon",
+    "axes": {
+      "time": "2016-10-06T00:00:00",
+      "latitude": 51.689998626708984,
+      "longitude": 2.490000009536743
+    },
+    "data": {
+      "sea_surface_temperature": 291.0,
+      "wind_speed": 10.0
+    }
+  }, {
+    "context": "time_lat_lon",
+    "axes": {
+      "time": "2016-10-07T00:00:00",
+      "latitude": 51.689998626708984,
+      "longitude": 2.490000009536743
+    },
+    "data": {
+      "sea_surface_temperature": null,
+      "wind_speed": null
+    }
+  }, {
+    "context": "time_lat_lon",
+    "axes": {
+      "time": "2016-10-08T00:00:00",
+      "latitude": 51.689998626708984,
+      "longitude": 2.490000009536743
+    },
+    "data": {
+      "sea_surface_temperature": null,
+      "wind_speed": null
+    }
+  }]
+}
