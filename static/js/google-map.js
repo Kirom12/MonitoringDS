@@ -25,10 +25,13 @@ function initMap() {
 		{
 			var lat = placemark.latlng.lat();
 			var lgt = placemark.latlng.lng();
+			var start = "2016-10-30T12%3A00%3A00";
+			console.log(lat + ' - ' + lgt);
 			var start = "2016-04-05T14:30:00Z";
 			var end = "2016-04-11T15:30:00Z";
+			//http://api.planetos.com/v1/datasets/myocean_sst_europe_daily/point?lat=49.83000183105469&lon=-2.009999990463257&start=2016-10-30T12%3A00%3A00&apikey=019ecd71188a4982a20e1a9717e1ab27
 			$.ajax({
-				url: 'http://api.planetos.com/v1/datasets/noaa_ww3_global_1.25x1d/point?lon='+lgt+'&lat='+lat+'&apikey=019ecd71188a4982a20e1a9717e1ab27',
+				url: 'http://api.planetos.com/v1/datasets/noaa_ww3_global_1.25x1d/point?lon='+lgt+'&lat='+lgt+'&apikey=019ecd71188a4982a20e1a9717e1ab27',
 				type: 'GET',
 				dataType: 'json',
 				success : function(data){
