@@ -28,7 +28,7 @@ function initMap() {
 			var start = "2016-04-05T14:30:00Z";
 			var end = "2016-04-11T15:30:00Z";
 			$.ajax({
-				url: 'http://api.planetos.com/v1/datasets/noaa_ww3_global_1.25x1d/point?lon='+lgt+'&lat='+lgt+'&start='+start+'&end='+end+'&apikey=019ecd71188a4982a20e1a9717e1ab27',
+				url: 'http://api.planetos.com/v1/datasets/noaa_ww3_global_1.25x1d/point?lon='+lgt+'&lat='+lat+'&apikey=019ecd71188a4982a20e1a9717e1ab27',
 				type: 'GET',
 				dataType: 'json',
 				success : function(data){
