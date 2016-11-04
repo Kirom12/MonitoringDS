@@ -169,6 +169,50 @@ function displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, sur
     });
 }
 
+function displayGraphAll(data, graphType) {
+    Highcharts.chart('graph_all_value', {
+        chart: {
+            type: graphType
+        },
+        title: {
+            text: 'Sea Surface Temperature'
+        },
+        xAxis: {
+            categories: [
+                'Day7',
+                'Day6',
+                'Day5',
+                'Day4',
+                'Day3',
+                'Day2',
+                'Today',
+            ],
+            crosshair: true
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'degrés celsius'
+            }
+        },
+        tooltip: {
+            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} c°</b></td></tr>',
+            footerFormat: '</table>',
+            shared: true,
+            useHTML: true
+        },
+        plotOptions: {
+            column: {
+                pointPadding: 0.2,
+                borderWidth: 0
+            }
+        },
+        series: data
+    });
+}
+
 function allGraph(graphType) {
     var surfaceTempSerie = [];
     var surfaceWindSpeed = [];
@@ -249,6 +293,7 @@ $(function () {
     
     $("#display_all_steps").on("click", function(){
          $("#one_step").hide();
+         $("#graph_all_value").hide();
          
          allGraph(graphTypeG);
     });

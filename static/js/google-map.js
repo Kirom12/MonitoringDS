@@ -80,7 +80,16 @@ function initMap() {
 				surfaceAirTemp[0].data.push(stations[steps[stepId].station].day[j].air_temperature);
 			}
 			
+			
 			displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, surfaceAirTemp, graphTypeG);
+			
+			var dataAll = [surfaceTempSerie[0], surfaceWindSpeed[0], surfaceWaveHeight[0], surfaceAirTemp[0]];
+			dataAll[0].name = "Sea Surface Temperature";
+			dataAll[1].name = "Surface Wind Speed";
+			dataAll[2].name = "Surface Wave Height";
+			dataAll[3].name = "Surface Air Temperature";
+			
+			displayGraphAll(dataAll, graphTypeG);
 		});
 		
 		google.maps.event.addListener(marker, 'mouseover', function() {
