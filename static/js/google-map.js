@@ -34,7 +34,52 @@ function initMap() {
 
 		google.maps.event.addListener(marker, 'click', function()
 		{
+			var stepDiv = $("#one_step");
 			
+			//$("#all_step").hide();
+			stepDiv.show();
+			
+			stepDiv.find("h3").text(placemark.name+" datas");
+			
+			//console.log(steps);
+			
+			var stepId = 0;
+			
+			for (var i = 0; i < steps.length; i++) {
+				if (placemark.name == steps[i].name) {
+					stepId = steps[i].id;
+				}
+			}
+			
+			// \/ This is shit
+			var surfaceTempSerie = [];
+			var surfaceWindSpeed = [];
+			var surfaceWaveHeight = [];
+			var surfaceAirTemp = [];
+		
+			surfaceTempSerie[0] = {};
+			surfaceWindSpeed[0] = {};
+			surfaceWaveHeight[0] = {};
+			surfaceAirTemp[0] = {};
+	
+			surfaceTempSerie[0].data = [];
+			surfaceWindSpeed[0].data = [];
+			surfaceWaveHeight[0].data = [];
+			surfaceAirTemp[0].data = [];
+	
+			surfaceTempSerie[0].name = steps[stepId].name;
+			surfaceWindSpeed[0].name = steps[stepId].name;
+			surfaceWaveHeight[0].name = steps[stepId].name;
+			surfaceAirTemp[0].name = steps[stepId].name;
+	
+			for(var j = 0; j < steps[stepId].days.length; j++) {
+				surfaceTempSerie[0].data.push(steps[stepId].days[j].sea_surface_temperature);
+				surfaceWindSpeed[0].data.push(steps[stepId].days[j].wind_speed);
+				surfaceWaveHeight[0].data.push(stations[steps[stepId].station].day[j].wave_height);
+				surfaceAirTemp[0].data.push(stations[steps[stepId].station].day[j].air_temperature);
+			}
+			
+			displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, surfaceAirTemp);
 		});
 		
 		google.maps.event.addListener(marker, 'mouseover', function() {

@@ -1,4 +1,4 @@
-var API_KEY = "b76c6e74ebc74b86b5fab4d00f6f6180";
+var API_KEY = "019ecd71188a4982a20e1a9717e1ab27";
 var CACHE_DURATION = 60*60*1000;
 var DAYS = 7;
 
