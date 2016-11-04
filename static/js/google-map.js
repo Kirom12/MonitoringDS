@@ -36,7 +36,23 @@ function initMap() {
 
 		google.maps.event.addListener(marker, 'click', function()
 		{
-
+			
+		});
+		
+		google.maps.event.addListener(marker, 'mouseover', function() {
+			$("#dialog_map").show();
+			$("#dialog_map").html("<strong>"+placemark.name+"</strong><br>lat: "+roundNb(placemark.latlng.lat())+"<br>lng: "+roundNb(placemark.latlng.lng()));
+		});
+		
+		google.maps.event.addListener(marker, 'mouseout', function() {
+			$("#dialog_map").hide();
 		});
 	}
+	
+	$("#map").on("mousemove", function(e){
+		var y = e.pageY + 20;
+		var x = e.pageX + 10;
+		
+		$("#dialog_map").offset({top: y , left: x});
+	});
 }
