@@ -194,20 +194,20 @@ function allGraph(graphType) {
         for(var j = 0; j < steps[i].days.length; j++) {
             //surfaceTempSerie[i].data.push(steps[i].days[j].sea_surface_temperature);
             //surfaceWindSpeed[i].data.push(steps[i].days[j].wind_speed);
-            
+
             surfaceTempSerie[i].data.push(checkData(i, j, steps[i].station, "sea_surface_temperature"));
             surfaceWindSpeed[i].data.push(checkData(i, j, steps[i].station, "wind_speed"));
-            
+
             surfaceWaveHeight[i].data.push(stations[steps[i].station].day[j].wave_height);
             surfaceAirTemp[i].data.push(stations[steps[i].station].day[j].air_temperature);
         }
     }
-    
+
     displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, surfaceAirTemp, graphType);
 }
 
 function checkData(idStep, day, stationName, dataName) {
-    
+
     switch (dataName) {
         case 'sea_surface_temperature' :
                 if (steps[idStep].days[day].sea_surface_temperature === null) {
@@ -215,7 +215,7 @@ function checkData(idStep, day, stationName, dataName) {
                         return stations[stationName].day[day].sea_surface_temperature;
                     }
                 }
-                
+
                 return steps[idStep].days[day].sea_surface_temperature;
             break;
         case 'wind_speed':
@@ -224,7 +224,7 @@ function checkData(idStep, day, stationName, dataName) {
                         return stations[stationName].day[day].wind_spd;
                     }
                 }
-        
+
                 return steps[idStep].days[day].wind_speed;
             break;
         default:
@@ -240,16 +240,16 @@ $(function () {
     //console.log(stations);
 
     allGraph(graphTypeG);
-    
+
     $("select").change(function(){
         var graphType = $("select option:selected").val();
         graphTypeG = graphType;
         allGraph(graphType);
     });
-    
+
     $("#display_all_steps").on("click", function(){
          $("#one_step").hide();
-         
+
          allGraph(graphTypeG);
     });
 });
