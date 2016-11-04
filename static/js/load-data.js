@@ -6,6 +6,7 @@ $(function() {
         return;
     } else {
         console.log('load from API');
+        localStorage.clear();
     }
 
     // Get stations from 
@@ -23,7 +24,7 @@ $(function() {
             var distanceBetween;
 
             //Use for the station data
-            var hours = 15;
+            var hours = date.getHours();
             var countDataStation = hours+(24*(DAYS-1));
             var k = 0;
 
@@ -86,7 +87,7 @@ $(function() {
             for (var station in stations) {
                 $.ajax({
                     url: "http://api.planetos.com/v1/datasets/noaa_ndbc_stdmet_stations/stations/"+station+"?origin=dataset-details&apikey="+API_KEY+"&var=air_temperature,wave_height,sea_surface_temperature,wind_spd&time_order=desc&count="+countDataStation,
-                    //url: "library/tmp/data-stations.json",
+                    //url: "library/tmp/data-station-"+station+".json",
                     type: "GET",
                     dataType: "json",
                     success: function(data){
@@ -121,12 +122,14 @@ $(function() {
 
                         //Save datas in local storage
                         localStorage.setItem("MonitoringDS-stations", JSON.stringify(stations));
+                        
+                        $(document).ajaxStop(function() { location.reload(true); });
                     },
                     error: function() {
                         console.log("Error on ajax station data query");
                     }
                 });
-            }    
+            }
         },
         error: function() {
             console.log("Error on ajax stations query");

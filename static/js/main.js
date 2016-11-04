@@ -15,4 +15,9 @@ if (cacheTime !== null && now - cacheTime < CACHE_DURATION) {
 	loadFromCache = true;
 	steps = JSON.parse(localStorage.getItem("MonitoringDS-steps"));
 	stations = JSON.parse(localStorage.getItem("MonitoringDS-stations"));
+	
+	$(function() {
+		$("#loading").hide();
+		$("#global").show();
+	});
 }
