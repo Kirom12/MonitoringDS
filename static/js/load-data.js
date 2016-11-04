@@ -1,6 +1,6 @@
 //Load data from planetos api and save it in webstorage
 
-$(function() { 
+$(function() {
     if (loadFromCache) {
         console.log('load from cache');
         return;
@@ -9,7 +9,7 @@ $(function() {
         localStorage.clear();
     }
 
-    // Get stations from 
+    // Get stations from
     $.ajax({
         url: "http://api.planetos.com/v1/datasets/noaa_ndbc_stdmet_stations/stations?apikey="+API_KEY,
         //url: "library/tmp/list-stations.json",
@@ -29,7 +29,6 @@ $(function() {
             var k = 0;
 
             for (var i = 0; i < steps.length; i++) {
-                
                 //Find the nearest station
                 for (var station in stationsList) {
                     //Distance between the point and current station
@@ -39,13 +38,13 @@ $(function() {
                         steps[i].lat,
                         steps[i].long
                     );
-                    
+
                     if (distanceBetween < stationsDiff) {
-                        stationsDiff = distanceBetween;                   
-                        steps[i].station = station;            
+                        stationsDiff = distanceBetween;
+                        steps[i].station = station;
                         //console.log(stationsDiff);
                     }
-                }            
+                }
                 //Reset distance
                 stationsDiff = 100000;
 
@@ -53,17 +52,17 @@ $(function() {
                 if(stations[steps[i].station] == null) {
                     stations[steps[i].station] = {};
                 }
-             
-                // Get temperature and wind with coordonates         
+
+                // Get temperature and wind with coordonates
                 $.ajax({
                     url: "http://api.planetos.com/v1/datasets/myocean_sst_europe_daily/point?lon="+steps[i].long+"&lat="+steps[i].lat+"&apikey="+API_KEY+"&var=sea_surface_temperature,wind_speed&count=7",
                     //url: "library/tmp/data-step1.json",
                     type: "GET",
                     dataType: "json",
-                    success: function(data){       
-                        //console.log(data);   
+                    success: function(data){
+                        //console.log(data);
                         steps[k].days = [];
-                        
+
                         //Save data for each day
                         for(var j = 0; j < DAYS; j++) {
                             steps[k].days[j] = {};
@@ -114,7 +113,7 @@ $(function() {
                             stations[currentStation].day[j].wave_height = roundNb(height/(offsetData-countData));
                             stations[currentStation].day[j].sea_surface_temperature = roundNb(seaTemp/(offsetData-countData));
                             stations[currentStation].day[j].wind_spd = roundNb(wind/(offsetData-countData));
-                            
+
                             temp = 0, height = 0, seaTemp = 0, wind = 0;
                             countData = offsetData;
                             offsetData = offsetData+24;
@@ -140,13 +139,13 @@ $(function() {
 function getDistanceFromLatLonInKm(lat1,lon1,lat2,lon2) {
     var R = 6371; // Radius of the earth in km
     var dLat = deg2rad(lat2-lat1);  // deg2rad below
-    var dLon = deg2rad(lon2-lon1); 
-    var a = 
+    var dLon = deg2rad(lon2-lon1);
+    var a =
         Math.sin(dLat/2) * Math.sin(dLat/2) +
-        Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) * 
+        Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
         Math.sin(dLon/2) * Math.sin(dLon/2)
         ;
-    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
     var d = R * c; // Distance in km
     return d;
 }
