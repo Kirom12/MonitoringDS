@@ -14,12 +14,10 @@ function initMap() {
 	function createM(placemark) {
 		if (!loadFromCache) {
 			var tmp = {};
-			
 			tmp.id = i;
 			tmp.name = placemark.name;
 			tmp.lat = placemark.latlng.lat();
 			tmp.long = placemark.latlng.lng();
-			
 			steps.push(tmp);
 		}
 
@@ -36,7 +34,7 @@ function initMap() {
 
 		google.maps.event.addListener(marker, 'click', function()
 		{
-
+			
 		});
 	}
 }
