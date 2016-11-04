@@ -80,7 +80,7 @@ function initMap() {
 				surfaceAirTemp[0].data.push(stations[steps[stepId].station].day[j].air_temperature);
 			}
 			
-			displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, surfaceAirTemp);
+			displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, surfaceAirTemp, graphTypeG);
 		});
 		
 		google.maps.event.addListener(marker, 'mouseover', function() {

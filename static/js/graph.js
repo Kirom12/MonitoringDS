@@ -1,8 +1,8 @@
 
-function displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, surfaceAirTemp) {
+function displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, surfaceAirTemp, graphType) {
      Highcharts.chart('sea_surface_temperature', {
         chart: {
-            type: 'column'
+            type: graphType
         },
         title: {
             text: 'Sea Surface Temperature'
@@ -44,7 +44,7 @@ function displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, sur
 
     Highcharts.chart('surface_wind_speed', {
         chart: {
-            type: 'column'
+            type: graphType
         },
         title: {
             text: 'Surface Wind speed'
@@ -86,7 +86,7 @@ function displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, sur
 
     Highcharts.chart('surface_wave_height', {
         chart: {
-            type: 'column'
+            type: graphType
         },
         title: {
             text: 'Surface Wave Height'
@@ -128,7 +128,7 @@ function displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, sur
 
     Highcharts.chart('surface_air_temperature', {
         chart: {
-            type: 'column'
+            type: graphType
         },
         title: {
             text: 'Air Surface Temperature'
@@ -169,7 +169,7 @@ function displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, sur
     });
 }
 
-function allGraph() {
+function allGraph(graphType) {
     var surfaceTempSerie = [];
     var surfaceWindSpeed = [];
     var surfaceWaveHeight = [];
@@ -203,7 +203,7 @@ function allGraph() {
         }
     }
     
-    displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, surfaceAirTemp);
+    displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, surfaceAirTemp, graphType);
 }
 
 function checkData(idStep, day, stationName, dataName) {
@@ -237,7 +237,7 @@ $(function () {
     //console.log(steps);
     //console.log(stations);
 
-    allGraph();
+    allGraph(graphTypeG);
     
     $("#display_all_steps").on("click", function(){
          $("#one_step").hide();
