@@ -233,21 +233,23 @@ function checkData(idStep, day, stationName, dataName) {
     }
 }
 
+var graphTypeG = "column";
+
 $(function () {
     //console.log(steps);
     //console.log(stations);
-
 
     allGraph(graphTypeG);
     
     $("select").change(function(){
         var graphType = $("select option:selected").val();
-        console.log(graphType);
+        graphTypeG = graphType;
+        allGraph(graphType);
     });
     
     $("#display_all_steps").on("click", function(){
          $("#one_step").hide();
          
-         allGraph();
+         allGraph(graphTypeG);
     });
 });
