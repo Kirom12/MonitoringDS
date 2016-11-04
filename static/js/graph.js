@@ -5,7 +5,7 @@ function displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, sur
             type: 'column'
         },
         title: {
-            text: 'Surface Temperature'
+            text: 'Sea Surface Temperature'
         },
         xAxis: {
             categories: [
@@ -131,7 +131,7 @@ function displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, sur
             type: 'column'
         },
         title: {
-            text: 'Surface Air Temperature'
+            text: 'Air Surface Temperature'
         },
         xAxis: {
             categories: [
@@ -192,14 +192,45 @@ function allGraph() {
         surfaceAirTemp[i].name = steps[i].name;
 
         for(var j = 0; j < steps[i].days.length; j++) {
-            surfaceTempSerie[i].data.push(steps[i].days[j].sea_surface_temperature);
-            surfaceWindSpeed[i].data.push(steps[i].days[j].wind_speed);
+            //surfaceTempSerie[i].data.push(steps[i].days[j].sea_surface_temperature);
+            //surfaceWindSpeed[i].data.push(steps[i].days[j].wind_speed);
+            
+            surfaceTempSerie[i].data.push(checkData(i, j, steps[i].station, "sea_surface_temperature"));
+            surfaceWindSpeed[i].data.push(checkData(i, j, steps[i].station, "wind_speed"));
+            
             surfaceWaveHeight[i].data.push(stations[steps[i].station].day[j].wave_height);
             surfaceAirTemp[i].data.push(stations[steps[i].station].day[j].air_temperature);
         }
     }
     
     displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, surfaceAirTemp);
+}
+
+function checkData(idStep, day, stationName, dataName) {
+    
+    switch (dataName) {
+        case 'sea_surface_temperature' :
+                if (steps[idStep].days[day].sea_surface_temperature === null) {
+                    if (stations[stationName].day[day].sea_surface_temperature !== null && stations[stationName].day[day].sea_surface_temperature != 0) {
+                        return stations[stationName].day[day].sea_surface_temperature;
+                    }
+                }
+                
+                return steps[idStep].days[day].sea_surface_temperature;
+            break;
+        case 'wind_speed':
+                if (steps[idStep].days[day].wind_speed === null) {
+                    if (stations[stationName].day[day].wind_spd !== null && stations[stationName].day[day].wind_spd != 0) {
+                        return stations[stationName].day[day].wind_spd;
+                    }
+                }
+        
+                return steps[idStep].days[day].wind_speed;
+            break;
+        default:
+                return null;
+            break;
+    }
 }
 
 $(function () {

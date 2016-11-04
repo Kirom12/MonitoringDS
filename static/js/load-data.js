@@ -92,6 +92,7 @@ $(function() {
                     success: function(data){
                         //TODO: test if data exist !
                         var countData = 0;
+                        var countAdd = [0,0,0,0];
                         var offsetData = hours;
                         var temp = 0, height = 0, seaTemp = 0, wind = 0;
                         var currentStation = data.entries[0].classifiers.station;
@@ -101,20 +102,27 @@ $(function() {
                         for(var j = 0; j < DAYS; j++) {
                             //Get average of all statement for one day
                             for(var m = countData; m < offsetData; m++) {
+                                //We don't want to count null value
                                 temp += data.entries[m].data.air_temperature;
                                 height += data.entries[m].data.wave_height;
                                 seaTemp += data.entries[m].data.sea_surface_temperature;
                                 wind += data.entries[m].data.wind_spd;
+                                
+                                if (data.entries[m].data.air_temperature !== null) {countAdd[0]++;}
+                                if (data.entries[m].data.wave_height !== null) {countAdd[1]++;}
+                                if (data.entries[m].data.sea_surface_temperature !== null) {countAdd[2]++;}
+                                if (data.entries[m].data.wind_spd !== null) {countAdd[3]++;}                 
                             }
 
                             //Save data in stations object
                             stations[currentStation].day[j] = {};
-                            stations[currentStation].day[j].air_temperature = roundNb(temp/(offsetData-countData));
-                            stations[currentStation].day[j].wave_height = roundNb(height/(offsetData-countData));
-                            stations[currentStation].day[j].sea_surface_temperature = roundNb(seaTemp/(offsetData-countData));
-                            stations[currentStation].day[j].wind_spd = roundNb(wind/(offsetData-countData));
+                            stations[currentStation].day[j].air_temperature = roundNb(temp/countAdd[0]);
+                            stations[currentStation].day[j].wave_height = roundNb(height/countAdd[1]);
+                            stations[currentStation].day[j].sea_surface_temperature = roundNb(seaTemp/countAdd[2]);
+                            stations[currentStation].day[j].wind_spd = roundNb(wind/countAdd[3]);            
 
                             temp = 0, height = 0, seaTemp = 0, wind = 0;
+                            countAdd = [0,0,0,0];
                             countData = offsetData;
                             offsetData = offsetData+24;
                         }
@@ -122,13 +130,16 @@ $(function() {
                         //Save datas in local storage
                         localStorage.setItem("MonitoringDS-stations", JSON.stringify(stations));
                         
-                        $(document).ajaxStop(function() { location.reload(true); });
+                        //$(document).ajaxStop(function() { location.reload(true); });
                     },
                     error: function() {
                         console.log("Error on ajax station data query");
                     }
                 });
             }
+            
+            console.log(steps);
+            console.log(stations);
         },
         error: function() {
             console.log("Error on ajax stations query");

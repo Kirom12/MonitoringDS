@@ -73,8 +73,9 @@ function initMap() {
 			surfaceAirTemp[0].name = steps[stepId].name;
 	
 			for(var j = 0; j < steps[stepId].days.length; j++) {
-				surfaceTempSerie[0].data.push(steps[stepId].days[j].sea_surface_temperature);
-				surfaceWindSpeed[0].data.push(steps[stepId].days[j].wind_speed);
+				surfaceTempSerie[0].data.push(checkData(stepId, j, steps[stepId].station, "sea_surface_temperature"));
+				surfaceWindSpeed[0].data.push(checkData(stepId, j, steps[stepId].station, "wind_speed"));
+				
 				surfaceWaveHeight[0].data.push(stations[steps[stepId].station].day[j].wave_height);
 				surfaceAirTemp[0].data.push(stations[steps[stepId].station].day[j].air_temperature);
 			}
