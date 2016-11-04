@@ -107,11 +107,11 @@ $(function() {
                                 height += data.entries[m].data.wave_height;
                                 seaTemp += data.entries[m].data.sea_surface_temperature;
                                 wind += data.entries[m].data.wind_spd;
-                                
+
                                 if (data.entries[m].data.air_temperature !== null) {countAdd[0]++;}
                                 if (data.entries[m].data.wave_height !== null) {countAdd[1]++;}
                                 if (data.entries[m].data.sea_surface_temperature !== null) {countAdd[2]++;}
-                                if (data.entries[m].data.wind_spd !== null) {countAdd[3]++;}                 
+                                if (data.entries[m].data.wind_spd !== null) {countAdd[3]++;}
                             }
 
                             //Save data in stations object
@@ -119,7 +119,7 @@ $(function() {
                             stations[currentStation].day[j].air_temperature = roundNb(temp/countAdd[0]);
                             stations[currentStation].day[j].wave_height = roundNb(height/countAdd[1]);
                             stations[currentStation].day[j].sea_surface_temperature = roundNb(seaTemp/countAdd[2]);
-                            stations[currentStation].day[j].wind_spd = roundNb(wind/countAdd[3]);            
+                            stations[currentStation].day[j].wind_spd = roundNb(wind/countAdd[3]);
 
                             temp = 0, height = 0, seaTemp = 0, wind = 0;
                             countAdd = [0,0,0,0];
@@ -129,7 +129,7 @@ $(function() {
 
                         //Save datas in local storage
                         localStorage.setItem("MonitoringDS-stations", JSON.stringify(stations));
-                        
+
                         $(document).ajaxStop(function() { location.reload(true); });
                     },
                     error: function() {
@@ -137,7 +137,7 @@ $(function() {
                     }
                 });
             }
-            
+
             console.log(steps);
             console.log(stations);
         },
