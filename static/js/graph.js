@@ -237,7 +237,13 @@ $(function () {
     //console.log(steps);
     //console.log(stations);
 
+
     allGraph(graphTypeG);
+    
+    $("select").change(function(){
+        var graphType = $("select option:selected").val();
+        console.log(graphType);
+    });
     
     $("#display_all_steps").on("click", function(){
          $("#one_step").hide();
