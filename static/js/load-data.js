@@ -130,7 +130,7 @@ $(function() {
                         //Save datas in local storage
                         localStorage.setItem("MonitoringDS-stations", JSON.stringify(stations));
                         
-                        //$(document).ajaxStop(function() { location.reload(true); });
+                        $(document).ajaxStop(function() { location.reload(true); });
                     },
                     error: function() {
                         console.log("Error on ajax station data query");
