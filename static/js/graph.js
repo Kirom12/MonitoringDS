@@ -8,15 +8,7 @@ function displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, sur
             text: 'Sea Surface Temperature'
         },
         xAxis: {
-            categories: [
-                'Day7',
-                'Day6',
-                'Day5',
-                'Day4',
-                'Day3',
-                'Day2',
-                'Today',
-            ],
+            categories: categoriesGraph,
             crosshair: true
         },
         yAxis: {
@@ -50,15 +42,7 @@ function displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, sur
             text: 'Surface Wind speed'
         },
         xAxis: {
-            categories: [
-                'Day7',
-                'Day6',
-                'Day5',
-                'Day4',
-                'Day3',
-                'Day2',
-                'Today',
-            ],
+            categories: categoriesGraph,
             crosshair: true
         },
         yAxis: {
@@ -92,15 +76,7 @@ function displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, sur
             text: 'Surface Wave Height'
         },
         xAxis: {
-            categories: [
-                'Day7',
-                'Day6',
-                'Day5',
-                'Day4',
-                'Day3',
-                'Day2',
-                'Today',
-            ],
+            categories: categoriesGraph,
             crosshair: true
         },
         yAxis: {
@@ -134,15 +110,7 @@ function displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, sur
             text: 'Air Surface Temperature'
         },
         xAxis: {
-            categories: [
-                'Day7',
-                'Day6',
-                'Day5',
-                'Day4',
-                'Day3',
-                'Day2',
-                'Today',
-            ],
+            categories: categoriesGraph,
             crosshair: true
         },
         yAxis: {
@@ -178,20 +146,20 @@ function displayGraphAll(data) {
             text: 'Average data'
         },
         xAxis: [{
-            categories: ['Day7', 'Day6', 'Day5', 'Day4', 'Day3', 'Day2', 'Today'],
+            categories: categoriesGraph,
             crosshair: true
         }],
         yAxis: [{ // Primary yAxis
             labels: {
                 format: '{value}m',
                 style: {
-                    color: 'red'
+                    color: '#E8910C'
                 }
             },
             title: {
                 text: 'Surface Wave Height',
                 style: {
-                    color: 'red'
+                    color: '#E8910C'
                 }
             }
         }, { // Secondary yAxis
@@ -199,13 +167,13 @@ function displayGraphAll(data) {
             title: {
                 text: 'Surface Wind Speed',
                 style: {
-                    color: 'green'
+                    color: '#7EFF3D'
                 }
             },
             labels: {
                 format: '{value} m/s',
                 style: {
-                    color: 'green'
+                    color: '#7EFF3D'
                 }
             }
         }, { // Tertiary yAxis
@@ -213,13 +181,13 @@ function displayGraphAll(data) {
             title: {
                 text: 'Sea Surface Temperature',
                 style: {
-                    color: 'purple'
+                    color: '#7020E8'
                 }
             },
             labels: {
                 format: '{value}C°',
                 style: {
-                    color: 'purple'
+                    color: '#7020E8'
                 }
             },
             opposite: true
@@ -228,13 +196,13 @@ function displayGraphAll(data) {
             title: {
                 text: 'Surface Air Temperature',
                 style: {
-                    color: Highcharts.getOptions().colors[0]
+                    color: '#30C1D4'
                 }
             },
             labels: {
                 format: '{value}C°',
                 style: {
-                    color: Highcharts.getOptions().colors[0]
+                    color: '#30C1D4'
                 }
             },
             opposite: true
@@ -322,22 +290,40 @@ function checkData(idStep, day, stationName, dataName) {
 var graphTypeG = "column";
 
 $(function () {
-    //console.log(steps);
-    //console.log(stations);
-
-    allGraph(graphTypeG);
-
-    $("select").change(function(){
-        var graphType = $("select option:selected").val();
-        graphTypeG = graphType;
-        allGraph(graphType);
-    });
-
-    $("#display_all_steps").on("click", function(){
-         $("#one_step").hide();
-         $("#single_graph_infos").hide();
-         $("#graph_type").show();
-
-         allGraph(graphTypeG);
-    });
+     //console.log(steps);
+     //console.log(stations);
+     
+     //Save last date for graph display
+     var d = new Date();
+     var categoriesGraph = [];   
+     var weekday = new Array(7);
+     weekday[0]=  "Sunday";
+     weekday[1] = "Monday";
+     weekday[2] = "Tuesday";
+     weekday[3] = "Wednesday";
+     weekday[4] = "Thursday";
+     weekday[5] = "Friday";
+     weekday[6] = "Saturday";
+     
+     for(var i = 5; i >= 0; i--) {
+          d.setDate(d.getDate()-1);
+          categoriesGraph[i] = weekday[d.getDay()]+" "+d.getDate()+"-"+(d.getMonth()+1);
+     }
+     categoriesGraph[6] = "Today";
+     
+     allGraph(graphTypeG);
+     
+     $("select").change(function(){
+          var graphType = $("select option:selected").val();
+          graphTypeG = graphType;
+          allGraph(graphType);
+     });
+     
+     $("#display_all_steps").on("click", function(){
+          $("#one_step").hide();
+          $("#single_graph_infos").hide();
+          $("#graph_type").show();
+          
+          allGraph(graphTypeG);
+     });
 });

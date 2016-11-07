@@ -39,6 +39,9 @@ function initMap() {
 			//Hide select graph type for avoid displaying bug
 			$("#graph_type").hide();
 
+			//Display data
+			$("#single_graph_infos").show();
+			
 			//Show button "display all step"
 			stepDiv.show();
 
@@ -90,25 +93,31 @@ function initMap() {
 			dataAll[0].type = "spline";
 			dataAll[0].yAxis = 1;
 			dataAll[0].tooltip = {valueSuffix: 'm'};
-			dataAll[0].color = 'red';
+			dataAll[0].color = '#E8910C';
 			
 			dataAll[1].name = "Surface Wind Speed";
 			dataAll[1].type = "spline";
 			dataAll[1].yAxis = 2;
 			dataAll[1].tooltip = {valueSuffix: 'm/s'};
-			dataAll[1].color = 'green';
+			dataAll[1].color = '#7EFF3D';
 			
 			dataAll[2].name = "Sea Surface Temperature";
 			dataAll[2].type = "spline";
 			dataAll[2].yAxis = 3;
 			dataAll[2].tooltip = {valueSuffix: 'c°'};
-			dataAll[2].color = 'purple';
+			dataAll[2].color = '#7020E8';
 			
 			dataAll[3].name = "Surface Air Temperature";
 			dataAll[3].type = "spline";
 			dataAll[3].tooltip = {valueSuffix: 'c°'};
+			dataAll[3].color = '#30C1D4';
 			
 			displayGraphAll(dataAll);
+			
+			dataAll[0].data[6] = (dataAll[0].data[6] === null)? "<i>No data</i>" : dataAll[0].data[6]+" m";
+			dataAll[1].data[6] = (dataAll[1].data[6] === null)? "<i>No data</i>" : dataAll[1].data[6]+" m/s";
+			dataAll[2].data[6] = (dataAll[2].data[6] === null)? "<i>No data</i>" : dataAll[2].data[6]+" c°";
+			dataAll[3].data[6] = (dataAll[3].data[6] === null)? "<i>No data</i>" : dataAll[3].data[6]+" c°";
 			
 			//Fill info box
 			$("#info_data_box").find("ul").html("<li><strong>Surface Wave Height</strong> : "+dataAll[0].data[6]+"</li>"+
@@ -116,8 +125,6 @@ function initMap() {
 												"<li><strong>Sea Surface Temperature</strong> : "+dataAll[2].data[6]+"</li>"+
 												"<li><strong>Air Surface Temperature</strong> : "+dataAll[3].data[6]+"</li>");
 			
-			//Display data
-			$("#single_graph_infos").show();
 		});
 
 		google.maps.event.addListener(marker, 'mouseover', function() {
