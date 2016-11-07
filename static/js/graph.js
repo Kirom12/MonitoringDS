@@ -185,13 +185,13 @@ function displayGraphAll(data) {
             labels: {
                 format: '{value}m',
                 style: {
-                    color: Highcharts.getOptions().colors[2]
+                    color: 'red'
                 }
             },
             title: {
                 text: 'Surface Wave Height',
                 style: {
-                    color: Highcharts.getOptions().colors[2]
+                    color: 'red'
                 }
             }
         }, { // Secondary yAxis
@@ -199,13 +199,13 @@ function displayGraphAll(data) {
             title: {
                 text: 'Surface Wind Speed',
                 style: {
-                    color: Highcharts.getOptions().colors[0]
+                    color: 'green'
                 }
             },
             labels: {
                 format: '{value} m/s',
                 style: {
-                    color: Highcharts.getOptions().colors[0]
+                    color: 'green'
                 }
             }
         }, { // Tertiary yAxis
@@ -213,13 +213,13 @@ function displayGraphAll(data) {
             title: {
                 text: 'Sea Surface Temperature',
                 style: {
-                    color: Highcharts.getOptions().colors[1]
+                    color: 'purple'
                 }
             },
             labels: {
                 format: '{value}C°',
                 style: {
-                    color: Highcharts.getOptions().colors[1]
+                    color: 'purple'
                 }
             },
             opposite: true
@@ -228,13 +228,13 @@ function displayGraphAll(data) {
             title: {
                 text: 'Surface Air Temperature',
                 style: {
-                    color: Highcharts.getOptions().colors[1]
+                    color: Highcharts.getOptions().colors[0]
                 }
             },
             labels: {
                 format: '{value}C°',
                 style: {
-                    color: Highcharts.getOptions().colors[1]
+                    color: Highcharts.getOptions().colors[0]
                 }
             },
             opposite: true
