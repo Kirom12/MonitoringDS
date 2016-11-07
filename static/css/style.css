@@ -20,6 +20,17 @@ body {
 	display: none;
 }
 
+#single_graph_infos {
+	display: none;
+}
+
+#info_data_box {
+}
+
+#info_data_box li{
+	list-style: none;
+}
+
 /* LOADING */
 
 #loading {

@@ -34,14 +34,27 @@
                     <button id="display_all_steps" class="btn-info pull-right">Display all</button>
                     <h3></h3>
             </div>
+            <div id="graph_type">
                 <label for="sel1">Type of graph:</label>
                 <select id="sel1">
                     <option value="column" selected="selected">column</option>
                     <option value="spline">spline</option>
                     <option value="bar">bar</option>
-                </select>
+                </select> 
+            </div>
 
-            <ul class="planet"></ul>
+            <div class="row" id="single_graph_infos">
+                <div class="col-lg-6">
+                    <div id="graph_all_value"></div>  
+                </div>
+                <div class="col-lg-6">
+                    <div class="alert alert-info" role="alert" id="info_data_box">
+                        <h4>Today datas</h4>
+                        <ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-6">
                     <div id="sea_surface_temperature"></div>
@@ -57,9 +70,6 @@
                 <div class="col-lg-6">
                     <div id="surface_wind_speed"></div>
                 </div>
-            </div>
-            <div class="row">
-                <div id="graph_all_value"></div>
             </div>
         </div>
     </div>

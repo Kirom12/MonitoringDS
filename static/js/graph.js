@@ -169,45 +169,87 @@ function displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, sur
     });
 }
 
-function displayGraphAll(data, graphType) {
+function displayGraphAll(data) {
     Highcharts.chart('graph_all_value', {
         chart: {
-            type: graphType
+            zoomType: 'xy'
         },
         title: {
-            text: 'Sea Surface Temperature'
+            text: 'Average data'
         },
-        xAxis: {
-            categories: [
-                'Day7',
-                'Day6',
-                'Day5',
-                'Day4',
-                'Day3',
-                'Day2',
-                'Today',
-            ],
+        xAxis: [{
+            categories: ['Day7', 'Day6', 'Day5', 'Day4', 'Day3', 'Day2', 'Today'],
             crosshair: true
-        },
-        yAxis: {
-            min: 0,
+        }],
+        yAxis: [{ // Primary yAxis
+            labels: {
+                format: '{value}m',
+                style: {
+                    color: Highcharts.getOptions().colors[2]
+                }
+            },
             title: {
-                text: 'degrés celsius'
+                text: 'Surface Wave Height',
+                style: {
+                    color: Highcharts.getOptions().colors[2]
+                }
             }
-        },
+        }, { // Secondary yAxis
+            gridLineWidth: 0,
+            title: {
+                text: 'Surface Wind Speed',
+                style: {
+                    color: Highcharts.getOptions().colors[0]
+                }
+            },
+            labels: {
+                format: '{value} m/s',
+                style: {
+                    color: Highcharts.getOptions().colors[0]
+                }
+            }
+        }, { // Tertiary yAxis
+            gridLineWidth: 0,
+            title: {
+                text: 'Sea Surface Temperature',
+                style: {
+                    color: Highcharts.getOptions().colors[1]
+                }
+            },
+            labels: {
+                format: '{value}C°',
+                style: {
+                    color: Highcharts.getOptions().colors[1]
+                }
+            },
+            opposite: true
+        }, { // Secondary yAxis
+            gridLineWidth: 0,
+            title: {
+                text: 'Surface Air Temperature',
+                style: {
+                    color: Highcharts.getOptions().colors[1]
+                }
+            },
+            labels: {
+                format: '{value}C°',
+                style: {
+                    color: Highcharts.getOptions().colors[1]
+                }
+            },
+            opposite: true
+        }],
         tooltip: {
-            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
-            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-                '<td style="padding:0"><b>{point.y:.1f} c°</b></td></tr>',
-            footerFormat: '</table>',
-            shared: true,
-            useHTML: true
+            shared: true
         },
-        plotOptions: {
-            column: {
-                pointPadding: 0.2,
-                borderWidth: 0
-            }
+        legend: {
+            layout: 'vertical',
+            align: 'left',
+            x: 80,
+            verticalAlign: 'top',
+            y: 55,
+            floating: true,
+            backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
         },
         series: data
     });
@@ -255,7 +297,7 @@ function checkData(idStep, day, stationName, dataName) {
     switch (dataName) {
         case 'sea_surface_temperature' :
                 if (steps[idStep].days[day].sea_surface_temperature === null) {
-                    if (stations[stationName].day[day].sea_surface_temperature !== null && stations[stationName].day[day].sea_surface_temperature != 0) {
+                    if (stations[stationName].day[day].sea_surface_temperature !== null && stations[stationName].day[day].sea_surface_temperature !== 0) {
                         return stations[stationName].day[day].sea_surface_temperature;
                     }
                 }
@@ -264,7 +306,7 @@ function checkData(idStep, day, stationName, dataName) {
             break;
         case 'wind_speed':
                 if (steps[idStep].days[day].wind_speed === null) {
-                    if (stations[stationName].day[day].wind_spd !== null && stations[stationName].day[day].wind_spd != 0) {
+                    if (stations[stationName].day[day].wind_spd !== null && stations[stationName].day[day].wind_spd !== 0) {
                         return stations[stationName].day[day].wind_spd;
                     }
                 }
@@ -293,8 +335,8 @@ $(function () {
 
     $("#display_all_steps").on("click", function(){
          $("#one_step").hide();
-
-         $("#graph_all_value").hide();
+         $("#single_graph_infos").hide();
+         $("#graph_type").show();
 
          allGraph(graphTypeG);
     });

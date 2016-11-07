@@ -35,8 +35,11 @@ function initMap() {
 		google.maps.event.addListener(marker, 'click', function()
 		{
 			var stepDiv = $("#one_step");
+			
+			//Hide select graph type for avoid displaying bug
+			$("#graph_type").hide();
 
-			//$("#all_step").hide();
+			//Show button "display all step"
 			stepDiv.show();
 
 			stepDiv.find("h3").text(placemark.name+" datas");
@@ -81,13 +84,33 @@ function initMap() {
 
 			displayGraph(surfaceTempSerie, surfaceWindSpeed, surfaceWaveHeight, surfaceAirTemp, graphTypeG);
 			
-			var dataAll = [surfaceTempSerie[0], surfaceWindSpeed[0], surfaceWaveHeight[0], surfaceAirTemp[0]];
-			dataAll[0].name = "Sea Surface Temperature";
-			dataAll[1].name = "Surface Wind Speed";
-			dataAll[2].name = "Surface Wave Height";
-			dataAll[3].name = "Surface Air Temperature";
+			var dataAll = [surfaceWaveHeight[0], surfaceWindSpeed[0], surfaceTempSerie[0], surfaceAirTemp[0]];
 			
-			displayGraphAll(dataAll, graphTypeG);
+			dataAll[0].name = "Surface Wave Height";
+			dataAll[0].type = "spline";
+			dataAll[0].yAxis = 1;
+			
+			dataAll[1].name = "Surface Wind Speed";
+			dataAll[1].type = "spline";
+			dataAll[1].yAxis = 2;
+			
+			dataAll[2].name = "Sea Surface Temperature";
+			dataAll[2].type = "spline";
+			dataAll[2].yAxis = 3;
+			
+			dataAll[3].name = "Surface Air Temperature";
+			dataAll[3].type = "spline";
+			
+			displayGraphAll(dataAll);
+			
+			//Fill info box
+			$("#info_data_box").find("ul").html("<li><strong>Surface Wave Height</strong> : "+dataAll[0].data[6]+"</li>"+
+												"<li><strong>Surface Wind Speed</strong> : "+dataAll[1].data[6]+"</li>"+
+												"<li><strong>Sea Surface Temperature</strong> : "+dataAll[2].data[6]+"</li>"+
+												"<li><strong>Air Surface Temperature</strong> : "+dataAll[3].data[6]+"</li>");
+			
+			//Display data
+			$("#single_graph_infos").show();
 		});
 
 		google.maps.event.addListener(marker, 'mouseover', function() {
