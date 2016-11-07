@@ -89,14 +89,17 @@ function initMap() {
 			dataAll[0].name = "Surface Wave Height";
 			dataAll[0].type = "spline";
 			dataAll[0].yAxis = 1;
+			dataAll[0].color = 'red';
 			
 			dataAll[1].name = "Surface Wind Speed";
 			dataAll[1].type = "spline";
 			dataAll[1].yAxis = 2;
+			dataAll[1].color = 'green';
 			
 			dataAll[2].name = "Sea Surface Temperature";
 			dataAll[2].type = "spline";
 			dataAll[2].yAxis = 3;
+			dataAll[2].color = 'purple';
 			
 			dataAll[3].name = "Surface Air Temperature";
 			dataAll[3].type = "spline";
