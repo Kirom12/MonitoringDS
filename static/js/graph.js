@@ -293,24 +293,6 @@ $(function () {
      //console.log(steps);
      //console.log(stations);
      
-     //Save last date for graph display
-     var d = new Date();
-     var categoriesGraph = [];   
-     var weekday = new Array(7);
-     weekday[0]=  "Sunday";
-     weekday[1] = "Monday";
-     weekday[2] = "Tuesday";
-     weekday[3] = "Wednesday";
-     weekday[4] = "Thursday";
-     weekday[5] = "Friday";
-     weekday[6] = "Saturday";
-     
-     for(var i = 5; i >= 0; i--) {
-          d.setDate(d.getDate()-1);
-          categoriesGraph[i] = weekday[d.getDay()]+" "+d.getDate()+"-"+(d.getMonth()+1);
-     }
-     categoriesGraph[6] = "Today";
-     
      allGraph(graphTypeG);
      
      $("select").change(function(){
